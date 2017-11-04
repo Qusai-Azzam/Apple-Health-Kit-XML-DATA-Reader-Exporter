@@ -74,7 +74,7 @@ namespace AppleHealthKitExporter
 
         public void ExportIntoCSVFiles()
         {
-            // Export HeartRate Data
+            // Export Data
             ExportFile(this.heartRateList, "HR-Data");
             ExportFile(this.stepCountList, "StepCount-Data");
             ExportFile(this.standHourList, "StandHour-Data");
